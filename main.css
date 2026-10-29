@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin: 0;padding: 0;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 210px;
+  border: 1.4px solid #458FF6;
+  padding: 21px;
+  border-radius: 55px;
+  text-align: center;
+  font-family: Mulish;
+font-weight: 700;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #458FF6;
+transition: 0.5s;
+}
+
+.link::after{
+  width: 10px;
+  height: 15px;
+  display: block;
+  content: "";
+  background-image: url("./Vector.svg");
+  background-size: 10px 15px;
+  margin-left: 7px;
+}
+.link:hover{
+  color: white;
+  background-color: #030303;
+}
+.link:active{
+  background-color: red;
+}
